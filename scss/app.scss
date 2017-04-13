@@ -1,0 +1,22 @@
+@import 'bourbon/bourbon';
+@import 'media';
+
+$pink: #FFCCCB;
+$tan: #FFD197;
+$brown: #7F3D17;
+$maroon: #7F1917;
+$blue: #0082c4;
+$teal: #21B6A8;
+
+
+article {
+        @include size(small) {
+                    @include columns(1);
+        }
+        @include size(medium) {
+                @include columns(2);
+        }
+    }
+    
+
+
